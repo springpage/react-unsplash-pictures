@@ -1,25 +1,16 @@
-# ReduxSimpleStarter
+# Unsplash pictures
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+a react app
 
-### Getting Started
+## Demo for app
+- Youtube: https://www.youtube.com/watch?v=DzMZCwooPaY
 
-There are two methods for getting started with this repo.
+## How to run
+Just download the project. Open terminal and move to project folder.Run npm install. Then npm start. Then open your browser and open http://localhost:8080. The react website will be displayed.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+## About this app
+This app make api search request to Unsplash.com, a website with many beautiful photos. Then user can click next and previous to navigate between photos. After clicked search, 20 results will be retrieved.
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+## Intro
+- I use react, redux to store state. Redux-thunk as middleware. And axios to make network request.
+- This app also use Bootstrap 4.
